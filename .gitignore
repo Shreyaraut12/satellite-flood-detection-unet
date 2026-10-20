@@ -1,0 +1,43 @@
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+archive*/
+data/
+dataset/
+*.zip
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pth
+*.pt
+.env
+.env.*
+!.env.example
